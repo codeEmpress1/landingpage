@@ -51,7 +51,10 @@ nav img{
     color: var(--white);
     border: 1px solid #ffffff;
 }
-
+.cus-btn:hover{
+    cursor: pointer;
+    color: aliceblue;
+}
 .hero {
     min-height: 70vmin;
     background: linear-gradient(89deg, #2D2F48 0%, #001550A6 47%, #00155073 100%), url(/asset/images/IMG0983.png);
@@ -97,12 +100,6 @@ color: var(--dull-white);
     background-image: linear-gradient(rgba(0, 181, 145, 0.735),#00B592),  url(/asset/images/Image14.png);
     background-size: 99%;
     background-repeat: no-repeat;
-    /*  */
-    /* background-position: ; */
-    /* #00B592 0% 0% no-repeat padding-box; */
-    /* opacity: 0.9;
-    height: 37vmin;
-    width: 100%; */
 }
 
 .overlay p {
@@ -189,4 +186,20 @@ color: var(--dull-white);
     color: #ffffff;
     width: 10rem
 
+}
+
+.cap {
+    margin-top: 10em;
+}
+
+@media only screen and  (max-width: 576px) {
+    .cap{
+        width: 70%;
+        margin:3em auto;
+    }
+}
+@media only screen and  (min-width: 576px) {
+    .cus{
+        width: 75%;
+    }
 }
